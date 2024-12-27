@@ -1,6 +1,38 @@
+@font-face {
+  font-family: charter;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('/font/charter/charter_regular.woff2') format('woff2');
+}
+  
+@font-face {
+  font-family: charter;
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('/font/charter/charter_italic.woff2') format('woff2');
+}
+  
+@font-face {
+  font-family: charter;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('/font/charter/charter_bold.woff2') format('woff2');
+}
+  
+@font-face {
+  font-family: charter;
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('/font/charter/charter_bold_italic.woff2') format('woff2');
+}
+
 body {
   background-color: #f2f2f2;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
+  font-family: charter, Georgia, 'Times New Roman', Times, serif; /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -11,7 +43,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
+  font-family: charter, Georgia, 'Times New Roman', Times, serif; /* OPTIONAL: Google Fonts - title font */
   font-weight: 300;
   color: #333;
 }
@@ -28,7 +60,7 @@ p {
 
 /* Links */
 a {
-  color: #1CBCAD;
+  color: #7FDBFF;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -40,7 +72,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #7b7b7b;
+  color: #39CCCC;
   text-decoration: none;
   outline: 0;
 }
@@ -69,8 +101,8 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background: #222288;
+  background: url(../images/header-bg-2.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
@@ -106,7 +138,7 @@ a:after {
 
 /* About Wrap */
 .about {
-  background: #2c3e50;
+  background: #222288;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -124,7 +156,7 @@ a:after {
 }
 
 .footer {
-  background: #2f2f2f;
+  background: #222288;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -189,7 +221,6 @@ sm {
 body {
   /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
 .animated {
@@ -304,4 +335,4 @@ body {
   -moz-animation-name: fadeInUp;
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  }
+}

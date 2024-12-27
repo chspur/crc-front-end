@@ -38,8 +38,11 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
+a:visited {
+  color: #7FDBFF;
+}
+
+a:hover {
   color: #39CCCC;
   text-decoration: none;
   outline: 0;

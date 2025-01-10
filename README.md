@@ -1,5 +1,5 @@
 ## Front-end Architecture
-![a diagram of the frontend architecture for my project](/images/crc-frontend-diagram.svg)
+![a diagram of the front-end architecture for my project](/images/crc-frontend-diagram.svg)
 
 <hr>
 

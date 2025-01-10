@@ -1,4 +1,4 @@
-## Frontend Architecture Diagram
+## Front-end Architecture
 ![a diagram of the frontend architecture for my project](/images/crc-frontend-diagram.svg)
 
 <hr>
